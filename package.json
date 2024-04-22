@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@octokit/oauth-authorization-url": "^7.0.1"
+  }
+}

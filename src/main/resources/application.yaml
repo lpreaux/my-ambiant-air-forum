@@ -1,0 +1,19 @@
+spring:
+  application.name: forum
+  datasource:
+    url: jdbc:postgresql://localhost:5432/my_ambient_air_forum
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  security:
+    oauth2:
+      resourceserver:
+
+      client:
+        registration:
+          github:
+            client-id: 7386c79c78ca612e1fa0
+            client-secret: 9ebb7d6ef1686acd3bcd2bc87f5eef79341890af
+
